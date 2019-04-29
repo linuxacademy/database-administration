@@ -9,3 +9,4 @@ INSERT INTO prod.products (productID,productType,operatingSystem) VALUES (1,'lap
 INSERT INTO prod.orders (orderID,userName,orderType,purchaseDate) VALUES (1,'aaron','laptop','2018-02-23'),(2,'stosh','desktop','2018-01-25'),(3,'kenny','server','2019-12-10');
 INSERT INTO dev.products (productID,productType,operatingSystem) VALUES (1,'laptop','ubuntu'),(2,'desktop','windows'),(3,'server','rhel');
 INSERT INTO dev.orders (orderID,userName,orderType,purchaseDate) VALUES (1,'aaron','laptop','2018-02-23'),(2,'stosh','desktop','2018-01-25'),(3,'kenny','server','2019-12-10');
+GRANT SELECT, INSERT ON prod.orders TO 'kenny'@'localhost';
