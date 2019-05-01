@@ -1,1 +1,1 @@
-# datbase-administration
+# database-administration
